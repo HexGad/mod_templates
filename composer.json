@@ -1,0 +1,26 @@
+{
+    "name": "hexgad/templates",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ahmed Gad",
+            "email": "eng.ahmedmgad@gmail.com"
+        }
+    ],
+    "require": {
+        "yajra/laravel-datatables-oracle": "^10.3.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                HexGad\\Templates\\Providers\\TemplatesServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "HexGad\\Templates\\": ""
+        }
+    }
+}
