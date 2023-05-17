@@ -3,7 +3,7 @@
     "alias": "templates",
     "description": "",
     "keywords": [],
-    "priority": 7,
+    "priority": 9,
     "providers": [
         "HexGad\\Templates\\Providers\\TemplatesServiceProvider"
     ],
